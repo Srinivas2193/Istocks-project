@@ -1,0 +1,26 @@
+#navBar{
+    grid-gap: 0%;
+    display: none;
+}
+#navBarContainer{
+    background-color: #285d93e8;
+    color: #fff;
+}
+
+#navBar > a{
+    color: #fff;
+    padding: 0px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navBar > a:hover{
+    font-weight: bold;
+    color: #eb7524;
+}
+.logoutButton:hover{
+    background-color: #fff;
+    height: 30px;
+    border-radius: 6px;
+}

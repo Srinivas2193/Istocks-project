@@ -1,0 +1,41 @@
+/* 
+*{
+  margin: 0%;
+  padding: 0%;
+} */
+
+*{
+  -ms-overflow-style: none;
+  }
+  ::-webkit-scrollbar {
+  display: none;
+  }
+.mainContainer{
+  /* min-height: auto; */
+}
+.logo{
+  height: 4rem;
+  width: 14rem;
+  margin: 0.25rem 1rem;
+}
+.iStock{
+  height: 70px;
+  width: 84%;
+  display: flex;
+  justify-content: center;
+  padding-right: 18%;  
+}
+input::-webkit-outer-spin-button,
+
+input::-webkit-inner-spin-button {
+
+  -webkit-appearance: none;
+
+  margin: 0;
+
+}
+input[type=number] {
+
+  -moz-appearance: textfield;
+
+}
